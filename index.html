@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            CALCULATOR
+        </title>
+    </head>
+    <style>
+        body{
+            background-color: beige;
+        }
+        .calculator{
+            background-color: #595959;
+            height: 540px;
+            width: 350px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 40px;
+            border-radius: 35px;
+            box-shadow: 6px 6px 20px black;
+            border: 2px solid black;
+        }
+        .text{
+            font-size: 63px;
+            width: 320px;
+            margin-right: auto;
+            margin-left: auto;
+            display: block;
+            background-color: #bfbfbf;
+            border: 2px solid black;
+
+        }
+        .button{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-top: 20px;
+           
+
+        }
+        .line-1{
+            font-weight: bold;
+            background-color: white;
+            height: 55px;
+            width: 55px;
+            font-size: 21px;
+            border-radius: 10px;
+            border: 2px solid #262626;
+            cursor: pointer;;
+        }
+        .line-11{
+            font-size: 30px;
+            height: 55px;
+            width: 55px;
+            background-color: white;
+            font-weight: bold;
+            border-radius: 10px;
+            border: 2px solid #262626;
+            cursor: pointer;
+
+        }
+        .line-11:hover{
+            box-shadow: 0 3px 3px  white;
+            transition: 0.3s;
+        }
+        .line-1:hover{
+            box-shadow:  0 3px 3px white;
+            transition:0.5s;
+        }
+        .color{
+            background-color: orangered;
+            color: white;
+        }
+    </style>
+    <body>
+        <div class="calculator">
+            <h3 style="text-align:center; color:white; font-family: Arial, Helvetica, sans-serif; font-weight: bolder; font-size: 40px;" >CASIO</h3>
+            
+         <input class="text" type="text" />
+         <div class="button">
+         <button class="line-1 line-11">7</button>
+         <button class="line-1 line-11 ">8</button>
+         <button class="line-1 line-11">9</button>
+         <button class="line-1 color">DEL</button>
+         <button class="line-1 color">AC</button>
+         
+         </div>
+         <div class="button">
+            <button class="line-1 line-11">4</button>
+            <button class="line-1 line-11 ">5</button>
+            <button class="line-1 line-11">6</button>
+            <button class="line-1 color">x</button>
+            <button class="line-1 color">/</button>
+            
+            </div>
+            <div class="button">
+                <button class="line-1 line-11">1</button>
+                <button class="line-1 line-11 ">2</button>
+                <button class="line-1 line-11">3</button>
+                <button class="line-1 color">+</button>
+                <button class="line-1 color">-</button>
+                
+                </div>
+                <div class="button">
+                    <button class="line-1 line-11">0</button>
+                    <button class="line-1 line-11 color ">10*</button>
+                    <button class="line-1 line-11 color">.</button>
+                    <button class="line-1 color">Ans</button>
+                    <button class="line-1 color">=</button>
+                    
+                    </div>
+    
+        </div>
+    </body>
+</html>
